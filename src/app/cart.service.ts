@@ -5,7 +5,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class CartService {
-  items =[];
+  items = [];
   addToCart(product){
     this.items.push(product);
   }
